@@ -11,18 +11,27 @@
 
 <body>
   <main>
-    <header class="red-part">
-      <div class="hello">HELLO</div>
-      <div class="my-name">my name is</div>
-    </header>
-    <section>
-      <div id="name" class="centering">Zack Lyon</div>
-    </section>
-    <footer class="red-part" class="centering">
+    <div class="form-container">
+      <input id="user-input" placeholder=" enter name" />
+      <button id="submit-button">Submit</button>
+      <button id="color-button">Color</button>
+      <div class="info">You've changed the name <span id="name-changes">0</span> times.</div>
+    </div>
+    <div class="nametag-container">
+      <div id="top">
+        <div class="hello">HELLO</div>
+        <div class="my-name">my name is</div>
+      </div>
+      <section>
+        <div id="name-area" class="centering">Zack Lyon</div>
+      </section>
+      <div id="bottom">
 
-    </footer>
+      </div>
+    </div>
+
   </main>
-
+  <script src="./form.js"></script>
 </body>
 
 </html>
